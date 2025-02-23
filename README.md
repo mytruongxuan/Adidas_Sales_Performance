@@ -4,86 +4,55 @@
 
 - [Project Overview] (#project-overview)
 - [Data Sources] (#data-sources)
-- Recomendations (#recommandations)
+- [Recomendations] (#recommandations)
 
 ### Project Overview 
 
-This data analysis project aims to provide insights into the sales perfomance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and again a deeper understanding of the company's performance. 
+This data analysis project aims to provide insights into the sales perfomance of an e-commerce company. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and again a deeper understanding of the company's performance. 
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company. 
+Sales Data: The primary dataset used for this analysis is the "Adidas US Sales Datasets.xlsx" file, containing detailed information about each sale made by the company. 
 
 ### Tools 
 
-- Excel - Data Cleaning 
-	- [Download here] (linkabcd)
-- SQL Server - Data Analysis
-- Power BI - Creating reports 
+- Pivot Table - Data Analysis 
+- Excel - Creating reports 
 
 ### Exploratory Data Analysis
 
-EDA involved exploring the sales data to answer key questions, such as:
+The sales data to answer key questions, such as:
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+1. Total Revenue
+2. Total Cost
+3. Total Profit
+4. Profit Margin (%): Profit margin is calculted as (Total Profit/Total Revenue)*100
+5. Average Revenue per Order
+6. Average Profit per Order
+7. Sales Volume: by Product/ state/ retailer
+8. Customer Acquisition Cost (CAC): CAC is calculated as the total marketing and sales expenses divided by the number of new customers acquired
 
 ### Data Analysis
 
-Include some interesting code/features worked with 
-
-'''sql
-SELECT*FROM table1 
-WHERE cond = 2; 
-'''
+Using Pivot Table in Excel
 
 ### Results/ Findings
-The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season. 
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+
+The dashboard shows $899.9M revenue, $332.1M profit (37%), and 2.48M orders.
+- Sales Channels: In-store (40%), Online (27%), Outlet (33%).
+- Trends: Sales & profit increased significantly in mid-2021.
+- Top Products: Men's Street Footwear leads in revenue ($209M), Women's Street Footwear has high profitability.
+- Retailers: Foot Locker ($220M) and Sports Direct ($182M) dominate.
+- Regional Performance: Revenue varies significantly by state, requiring targeted strategies.
 
 ### Recommendations
 
 Based on the analysis, we recommend the followng actions: 
-- Invest in marketing and promotions during peak sales seasons to maximize revenue. 
-- Focus on expanding and promoting products in Category A
-- Implement a customer segmentation strategy to target hight LTV customers effectively. 
-
-### Limitations 
-
-I had to remove all zero values from budget and revenue colums because they would have affected the accuracy of my conclusions form anaysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue. 
-
+- Boost online sales: Online revenue is still low; a stronger marketing strategy is needed.
+- Optimize operational costs to increase profit margins.
+- Develop a product strategy: Focus on Women’s Street Footwear, as it has high profitability.
+- Conduct deeper regional analysis to optimize revenue in low-performing states.
 
 ### References
-1. SQL for Businuesses by werty 
-2. 
 
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL
-
-'column1'
-
-**bold**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+MazHocData
